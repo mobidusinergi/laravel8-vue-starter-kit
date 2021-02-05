@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.card {
+   border-radius: 15px;
+}
+
+.notice {
+    border-radius: 15px;
+ }
+
+
+.theme-blue .navbar-fixed-top {
+    border-color: #0062cc;
+}
+
+.theme-blue .sidebar-nav .metismenu>li.active>a, .theme-blue .sidebar-nav .metismenu>li a:hover {
+    background: #0062cc;
+    color: #fff;
+}
+
+.theme-blue .sidebar_icon {
+    background: #0062cc;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.badge {
+    margin-left: -2px;
+}
+
+.notice {
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+}
+
+.notice-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+
+.notice-success {
+    border-color: #80D651;
+}
+
+.notice-primary {
+    border-color: #0275d8;
+}
+
+.notice-success>strong {
+    color: #80D651;
+}
+
+.notice-info {
+    border-color: #45ABCD;
+}
+
+.notice-info>strong {
+    color: #45ABCD;
+}
+
+.notice-warning {
+    border-color: #FEAF20;
+}
+
+.notice-warning>strong {
+    color: #FEAF20;
+}
+
+.notice-danger {
+    border-color: #d73814;
+}
+
+.notice-danger>strong {
+    color: #d73814;
+}
+
+.center {
+    height: 100px;
+    line-height: 100px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.dot {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.color_empty {
+    background-color: #bbb;
+}
+
+.color_success {
+    background-color: #4CAF50;
+}
+
+.color_warning {
+    background-color: #FF9800;
+    color: #FAFAFA
+}
+
+.color_danger {
+    background-color: #f93232;
+    color: #fafafa
+}
+
+.form-control {
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
+}
+
+/* Dots */
+.dot_success {
+    height: 12px;
+    width: 12px;
+    background-color: #28A745;
+    display: inline-block;
+}
+
+.dot_warning {
+    height: 12px;
+    width: 12px;
+    background-color: #FF9800;
+    display: inline-block;
+}
+
+.dot_primary {
+    height: 12px;
+    width: 12px;
+    background-color: #007BFF;
+    display: inline-block;
+}
+
+.dot_secondary {
+    height: 12px;
+    width: 12px;
+    background-color: grey;
+    display: inline-block;
+}
+
+.dot_danger {
+    height: 12px;
+    width: 12px;
+    background-color: #f93232;
+    display: inline-block;
+}
